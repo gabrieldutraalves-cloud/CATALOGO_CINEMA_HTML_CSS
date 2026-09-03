@@ -3,10 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SENAC FILMS</title>
 <LINK rel="stylesheet" href="style.css">
 </head>
 <body>
-<H1 id="catalogo"> Catálogo de Filmes </H1>
+    <nav>
+        <a>Menu</a>
+        <a>Promoções</a>
+        <a>Reservas</a>
+        <a>Produtos</a>
+    </nav>
+
+    <H1> 
+    Catálogo de Filmes 
+</H1>
+
+<br>
+<h2>
+
+    FILMES EM CARTAZ
+</h2>
+
+<br>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_shX9FhSOQCuFGhI0OWBnj1J8N2Ir7g2C6jOxEhxtbw&s=10" alt="Vingadores Ultimato Encore" height="400" width="300">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxt3uLaVeRrlNKGrWjkKRGJEUkYL_c0sL9ye0IR9c69w&s" alt="Vingadores Dommsday" height="400" width="300">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKd3wQgAewiCTW4IzAeyv1Rc2ksleFXYx8HBUC_l0BFA&s=10" alt="Homem-Aranha: Um novo dia" height="400" width="300">
+
+<p>
+    Descubra a unidade mais perto de você!
+</p>
+
+<table>
+    <form>
+        <label for="cidade">Cidade</label>
+        <select id="cidade" name="cidade">
+            <option value="selecione uma cidade">selecione uma cidade</option>
+            <option value="Belo Horizonte">Belo Horizonte</option>
+            <option value="Contagem">Contagem</option>
+            <option value="Betim">Betim</option>
+        </select>
+    <br>    
+        <label for="horaio">Horário</label>
+        <select id="horario" name="horario">
+                <option value="selecione um horário">selecione um horário</option>
+                <option value="14:30"></option>
+                <option value="17:20">Belo Horizonte</option>
+                <option value="20:00">Contagem</option>
+        </select>
+    <br>
+        <label for="filme">Filme</label>
+        <select id="filme" name="filme">
+                <option value="selecione um filme">selecione um filme</option>
+                <option value="Homem-Aranha: Um novo dia">Homem-Aranha: Um novo dia</option>
+                <option value="Vingadores: Doomsday">Vingadores: Doomsday</option>
+                <option value="Vingadores: Ultimato Encore">Vingadores: Ultimato Encore</option>
+        </select>
+    <br>
+        <button type="submit">Buscar</button>
+    </form>
+</table>
 </body>
 </html>

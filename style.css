@@ -6,30 +6,46 @@ body {
   }
 h1 {
     color:#fff;
-    margin: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom:10px;
     border: 2px solid;
+    border-radius:10px;
+    padding-top: 10px;
+    padding-bottom:10PX ;
+    padding-RIGHT: 100px;
+    padding-left:100PX ;
+    TEXT-ALIGN:CENTER;
   }
-  .titulo1 {
-    color:red;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: 1px solid;
-    border-radius: 20px;
-    padding-top: 40px;
-    padding-bottom:0 ;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align:center;
+h2 {
+  color:white;
+}
+img {
+  border-radius: 10PX;
+  border-bottom: 5PX;
+  border-top: 5PX;
+  border-right: 5px;
+  border-left: 5px;
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-top: 1px;
+  margin-bottom:10px;
+  position:static
 }
 
-
-h3 {
-    text-align:center;
-    color:#000000
+p{
+  color:white;
 }
-.estrofe {
-    color:#1900ff;
-    text-align:center;
+label {
+  color:white;
+  border:10px
+}
+nav{
+  list-style: none;
+  display:flex;
+  gap:550px;
+  color:white;
+  width: 50px;
+  height:40px;
 }
